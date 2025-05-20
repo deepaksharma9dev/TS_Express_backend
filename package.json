@@ -1,0 +1,36 @@
+{
+  "name": "TS_Express_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+  "start": "ts-node src/app.ts",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepaksharma9dev/TS_Express_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaksharma9dev/TS_Express_backend/issues"
+  },
+  "homepage": "https://github.com/deepaksharma9dev/TS_Express_backend#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/pg": "^8.15.2",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
